@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduNaija - E-Learning Quiz Platform</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="navbar">
+      <div class="logo">EduNaija 🎓</div>
+      <p class="tagline">Empowering Practice & Exam Preparation</p>
+    </header>
+
+    <!-- Main Container -->
+    <main class="container">
+      <!-- Quiz List View -->
+      <section id="quiz-list-section">
+        <h2>Available Practice Quizzes</h2>
+        <p>Select a subject to begin testing your knowledge:</p>
+        <div id="quiz-grid" class="quiz-grid">
+          <p class="loading">Loading quizzes...</p>
+        </div>
+      </section>
+
+      <!-- Quiz Taking View -->
+      <section id="quiz-view" class="quiz-container hidden">
+        <div class="quiz-header">
+          <button id="back-btn" class="btn-secondary">← Back to Quizzes</button>
+          <h2 id="active-quiz-title">Quiz Title</h2>
+        </div>
+
+        <div id="questions-container"></div>
+
+        <button id="submit-btn" class="btn-primary hidden">Submit Quiz</button>
+      </section>
+
+      <!-- Results View -->
+      <section id="result-view" class="result-card hidden">
+        <h2>🎉 Quiz Completed!</h2>
+        <div class="score-display">
+          <p>Your Score:</p>
+          <h1 id="final-score">0 / 0</h1>
+          <p id="final-percentage" class="badge">0%</p>
+        </div>
+        <button id="retry-btn" class="btn-primary">Try Another Quiz</button>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
