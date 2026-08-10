@@ -34,7 +34,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/YOUR-USERNAME/e-learning-quiz-app.git](https://github.com/YOUR-USERNAME/e-learning-quiz-app.git)
+git clone [https://github.com/olataiwo85-bit/E-learning-Quiz-app.git](https://github.com/olataiwo85-bit/E-learning-Quiz-app.git)
 cd e-learning-quiz-app
 ```
 
@@ -69,4 +69,4 @@ The server will run on `http://localhost:5000`.
 
 ## 🎥 Project Demo
 
-\_(Replace this line with the link to your 2-3 minute demo)
+this line for 2-3minutes video link
