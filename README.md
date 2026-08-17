@@ -68,5 +68,3 @@ The server will run on `http://localhost:5000`.
 ---
 
 ## 🎥 Project Demo
-
-this line for 2-3minutes video link
