@@ -177,4 +177,34 @@ body {
   border-radius: 20px;
   font-weight: bold;
   margin-top: 0.5rem;
+
+/* Timer Styling */
+.timer-badge {
+    background-color: #dbeafe;
+    color: #1e40af;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: monospace;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    float: right;
+}
+
+.timer-badge.warning {
+    background-color: #fee2e2;
+    color: #991b1b;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* General Layout Fixes */
+.hidden { display: none !important; }
+.quiz-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
 }

@@ -27,8 +27,17 @@
       <!-- Quiz Taking View -->
       <section id="quiz-view" class="quiz-container hidden">
         <div class="quiz-header">
-          <button id="back-btn" class="btn-secondary">← Back to Quizzes</button>
-          <h2 id="active-quiz-title">Quiz Title</h2>
+          <div>
+            <button id="back-btn" class="btn-secondary">← Back</button>
+            <h2
+              id="active-quiz-title"
+              style="display: inline-block; margin-left: 1rem"
+            >
+              Quiz Title
+            </h2>
+          </div>
+          <!-- Dynamic Timer -->
+          <div id="timer-display" class="timer-badge">⏱️ 02:00</div>
         </div>
 
         <div id="questions-container"></div>
@@ -37,17 +46,13 @@
       </section>
 
       <!-- Results View -->
-      <section id="result-view" class="result-card hidden">
-        <h2>🎉 Quiz Completed!</h2>
-        <div class="score-display">
-          <p>Your Score:</p>
-          <h1 id="final-score">0 / 0</h1>
-          <p id="final-percentage" class="badge">0%</p>
-        </div>
-        <button id="retry-btn" class="btn-primary">Try Another Quiz</button>
+      <section id="result-view" class="result-container hidden">
+        <h2>Quiz Complete!</h2>
+        <div id="score-display" class="score-circle">0%</div>
+        <p id="feedback-message">Calculating your score...</p>
+        <button id="home-btn" class="btn-primary">Return Home</button>
       </section>
     </main>
-
     <script src="app.js"></script>
   </body>
 </html>
