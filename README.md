@@ -2,6 +2,10 @@
 
 A full-stack, dynamic e-learning application designed to provide interactive exam practice for students. Built with a focus on speed, responsiveness, and clean architecture.
 
+## 📹 Project Walkthrough
+
+Watch the dynamic full-stack demonstration on Loom: [EduNaija Demo Video](https://www.loom.com/share/ea148cf9dea2488992e5bb4025650ba6)
+
 ## 🚀 Core Features
 
 - **Dynamic Content:** Quizzes and questions are dynamically fetched from an SQLite database via a REST API.
